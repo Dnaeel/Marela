@@ -1,12 +1,12 @@
-body{
+body {
     margin: 0;
 }
 
-header{
+header {
     height: 120px;
 }
 
-.main-block{
+.main-block {
     margin-left: 6.08%;
     height: 116px;
     width: 1265px;
@@ -15,122 +15,169 @@ header{
     margin-top: 33px;
 }
 
-.logo{
+.logo {
     width: 122px;
     height: 63px;
 }
 
-ul{
+ul {
     display: flex;
     gap: 40px;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: #B08EAD;
 }
 
-.second-block{
+.second-block {
     height: 817px;
 }
 
-.darck-purple{
+.darck-purple {
     height: 458px;
     background: #C9ADC6;
 }
 
-.purple{
+.purple {
     height: 359px;
     background: #D6BBD3;
 }
 
-.main-img{
+.main-img {
     position: absolute;
     height: 675px;
     width: 851px;
     margin: 72px 411px 72px 178px;
 }
 
-.spring-cushion{
+.spring-cushion {
     position: absolute;
     height: 450px;
     width: 425px;
     background-color: #B08EAD;
     margin: 182px 113px 185px 882px;
 }
- 
-.spring-cushion p, .other{
+
+.spring-cushion p,
+.other {
     position: relative;
     font-family: 'Roboto';
-font-weight: 400;
-font-size: 14px;
-color: #FFFFFF;
-margin: 10px 20px;
-top: 120px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 10px 20px;
+    top: 120px;
 }
 
-.spring-cushion .spring{
+.spring-cushion .spring {
     font-family: 'Cormorant Garamond';
-font-weight: 400;
-font-size: 45px;
+    font-weight: 400;
+    font-size: 45px;
 }
 
-.spring-cushion div{
+.spring-cushion div {
     position: relative;
     width: 55px;
     height: 2px;
     background-color: #FFFFFF;
-  top: 130px;   
-  left: 20px;
+    top: 130px;
+    left: 20px;
 }
 
-.content{
+.content {
     height: 657.64px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.content p{
+.top{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .pillow-designer {
     text-align: center;
     font-family: 'Roboto';
-font-weight: 400;
-font-size: 14px;
-color: #B99BB6;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B99BB6;
 }
 
-.content .about-me{
+.content .me {
     font-family: 'Cormorant Garamond';
-font-weight: 400;
-font-size: 26px;
-color: #5F4D5D;
+    font-weight: 400;
+    font-size: 26px;
+    color: #5F4D5D;
+    text-align: center;
 }
 
-.content button{
+.content button {
     height: 45px;
     width: 141px;
     background: transparent;
     border-radius: 25px;
-    border: 1px solid #B99BB6; 
-    color:  #B99BB6;  
+    border: 1px solid #B99BB6;
+    color: #B99BB6;
     margin: 0 auto;
 }
 
-.content button:hover{
+.content button:hover {
     cursor: pointer;
 }
 
-.content img{
+.content img {
     height: 314px;
     width: 368px;
 }
 
-.content .bottom-photo{
+.content .bottom-photo {
     height: 113px;
     width: 368px;
     background: #CEB3CB;
+}
+
+.their-projects{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 40px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-photo>p {
+    font-family: 'Cormorant Garamond';
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-left: 23px;
+}
+
+.bottom-photo>a {
+    font-family: 'Cormorant Garamond';
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-left: 23px;
+}
+
+.my-products{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
