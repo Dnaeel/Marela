@@ -23,6 +23,7 @@ header {
 ul {
     display: flex;
     gap: 40px;
+    margin-right: 100px;
 }
 
 li {
@@ -97,9 +98,9 @@ a {
 }
 
 .top {
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
+    margin-top: -100px;
 }
 
 .content .pillow-designer {
